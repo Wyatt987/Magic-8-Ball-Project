@@ -23,35 +23,35 @@ let imageChoice = ''
 switch (randomNumber) {
   case 0:
     eightBall = 'It is certain'
-    imageChoice = 'imgs/'
+    imageChoice = "imgs/ce.png"
     break;
   case 1:
     eightBall = 'It is decidedly so'
-    imageChoice = 'imgs/'
+    imageChoice = "imgs/yup.jpg"
     break;
   case 2:
     eightBall = 'Reply hazy try again'
-    imageChoice = 'imgs/'
+    imageChoice = "imgs/repeat.png"
     break;
   case 3:
    eightBall = 'Cannot predict now'
-   imageChoice = 'imgs/'
+   imageChoice = "imgs/cannot predict.png"
     break;
   case 4:
     eightBall = 'Do not count on it'
-    imageChoice = 'imgs/'
+    imageChoice = "imgs/na.png"
     break;
   case 5:
     eightBall = 'My sources say no'
-    imageChoice = 'imgs/'
+    imageChoice = "imgs/nope.jpg"
     break;
   case 6:
     eightBall = 'Outlook not so good'
-    imageChoice = 'imgs/'
+    imageChoice = "imgs/outlook not so good.jpg"
     break;
   case 7:
     eightBall = 'Signs point to yes'
-    imageChoice = 'imgs/'
+    imageChoice = "imgs/signs point to yes.png"
     break;
 }
 console.log(`The eight ball answered:${eightBall}`);
