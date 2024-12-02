@@ -23,7 +23,7 @@ let imageChoice = ''
 switch (randomNumber) {
   case 0:
     eightBall = 'It is certain'
-    imageChoice = "imgs/ce.png"
+    imageChoice = "imgs/Certain.png"
     break;
   case 1:
     eightBall = 'It is decidedly so'
