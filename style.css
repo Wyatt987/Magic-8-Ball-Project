@@ -5,6 +5,43 @@
     text-align: center;
 }
 #response-img {
-    height: 700px;
-    Width: 700px;
+    height: 600px;
+    Width: 600px;
+}
+#btn {
+    display: block;
+    margin: 20px auto;
+    padding: 15px 40px;
+    font-size: 1.5rem; 
+    font-weight: bold; 
+    background-color: #cd5e6d;
+    color: #fff; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    transition: 0.3s ease;
+    animation: click-me 0.5s infinite alternate;
+
+
+}
+
+@keyframes click-me {
+    from { transform: scale(1); }
+    to { transform: scale(1.1); }
+}
+
+/* Hover*/
+#btn:hover {
+    background-color: #ff3b2f; /
+    border-color: #ff1a0f;  
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.4); 
+    transition: ease 0.3;
+}
+#header {
+    font-family: "playwrite-cc-za", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: salmon;
+}
+body {
+    overflow: hidden;
 }
